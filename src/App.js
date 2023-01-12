@@ -3,7 +3,7 @@ import Chat  from './Chat';
 import './App.css';
 import Sidebar from './Sidebar';
 import React, { useEffect } from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot } from "react-dom";
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
